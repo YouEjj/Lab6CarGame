@@ -1,0 +1,485 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.19f1 (244b723c30a6) revision 2378610'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'fr' Physical Memory: 7865 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/youss/Desktop/ARVR/Lab6 - Copie
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+59326
+Successfully changed project path to: C:/Users/youss/Desktop/ARVR/Lab6 - Copie
+C:/Users/youss/Desktop/ARVR/Lab6 - Copie
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2724] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1394036322 [EditorId] 1394036322 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-AT8BMR2S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [2724] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1394036322 [EditorId] 1394036322 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-AT8BMR2S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 5.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.19f1 (244b723c30a6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/youss/Desktop/ARVR/Lab6 - Copie/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX550 (ID=0x1f9f)
+    Vendor:   NVIDIA
+    VRAM:     1920 MB
+    Driver:   31.0.15.4626
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007733 seconds.
+- Loaded All Assemblies, in  0.333 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android SDK Build-tools component is not found. Make sure all tools are installed in the SDK manager.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Android.AndroidSDKTools:UpdateToolsDirectories ()
+UnityEditor.Android.AndroidSDKTools:.ctor (string)
+UnityEditor.Android.AndroidSDKTools:CreateAndroidSDKTools (string)
+UnityEditor.Android.AndroidSDKTools:GetInstance<UnityEditor.Android.AndroidSDKTools> (UnityEditor.Android.AndroidSDKTools/InstanceCreator)
+UnityEditor.Android.AndroidSDKTools:GetInstance ()
+UnityEditor.Android.AndroidDeploymentTargetsExtension:GetMainThreadContext (bool)
+UnityEditor.Android.TargetExtension:OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[])
+UnityEditor.Android.TargetExtension:OnLoad ()
+UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules ()
+
+InvalidOperationException: Cannot start process because a file name has not been provided.
+  at System.Diagnostics.Process.Start () [0x00024] in <babece01671744c6913f4a167b091f9e>:0 
+  at (wrapper remoting-invoke-with-check) System.Diagnostics.Process.Start()
+  at UnityEditor.Android.ProgramAsShellExecute.Start (System.Diagnostics.ProcessStartInfo psi) [0x0000e] in <c91765c32a844aad92ce9b6c6b9d05f7>:0 
+  at UnityEditor.Android.Command.RunWithShellExecute (System.String command, System.String args, System.String workingdir, System.String errorMsg) [0x0003e] in <c91765c32a844aad92ce9b6c6b9d05f7>:0 
+  at UnityEditor.Android.ADB.StartServer () [0x00013] in <c91765c32a844aad92ce9b6c6b9d05f7>:0 
+  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0000b] in <c91765c32a844aad92ce9b6c6b9d05f7>:0 
+  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x00284] in <c91765c32a844aad92ce9b6c6b9d05f7>:0 
+  at UnityEditor.Android.TargetScanWorker.ScanSync () [0x00039] in <c91765c32a844aad92ce9b6c6b9d05f7>:0 
+  at UnityEditor.Android.TargetExtension.OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[] usbDevices) [0x00081] in <c91765c32a844aad92ce9b6c6b9d05f7>:0 
+  at UnityEditor.Android.TargetExtension.OnLoad () [0x000ad] in <c91765c32a844aad92ce9b6c6b9d05f7>:0 
+  at UnityEditor.Modules.ModuleManager.InitializePlatformSupportModules () [0x0009d] in <2acbecbc299e4654adc94df891af51f2>:0 
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.302 seconds
+Domain Reload Profiling: 635ms
+	BeginReloadAssembly (113ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (136ms)
+		LoadAssemblies (112ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (133ms)
+				TypeCache.ScanAssembly (122ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (303ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (258ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (108ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (103ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.548 seconds
+Refreshing native plugins compatible for Editor in 2.18 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.500 seconds
+Domain Reload Profiling: 1044ms
+	BeginReloadAssembly (115ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (363ms)
+		LoadAssemblies (280ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (153ms)
+			TypeCache.Refresh (135ms)
+				TypeCache.ScanAssembly (121ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (501ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (377ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (267ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 3.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.1 KB). Loaded Objects now: 3560.
+Memory consumption went from 129.0 MB to 129.0 MB.
+Total: 2.800700 ms (FindLiveObjects: 0.170400 ms CreateObjectMapping: 0.066400 ms MarkObjects: 2.460000 ms  DeleteObjects: 0.103000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 78647.220469 seconds.
+  path: Assets/KajamansRoads/FileNamesDescription.txt
+  artifactKey: Guid(6208aa77eb8558d49ae5cc133744e301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/FileNamesDescription.txt using Guid(6208aa77eb8558d49ae5cc133744e301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe9d7b0b7d7ab4ea1e5c993a0fddba6') in 0.016658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 35.859859 seconds.
+  path: Assets/KajamansRoads/Textures/Guardrails01_n 1.png
+  artifactKey: Guid(86267e603cc964b479dd11ea69198152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Textures/Guardrails01_n 1.png using Guid(86267e603cc964b479dd11ea69198152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365340111de0a7fc2c69a8a165825569') in 0.080760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.791064 seconds.
+  path: Assets/KajamansRoads/Textures/Guardrails01 1.png
+  artifactKey: Guid(dddc7f30f2b09f94588a27a3d2588c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Textures/Guardrails01 1.png using Guid(dddc7f30f2b09f94588a27a3d2588c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d59dd95d68511c6e384cb093adf389') in 0.035668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 23.177937 seconds.
+  path: Assets/KajamansRoads/Textures/Road_1lane_dark01 1.png
+  artifactKey: Guid(4d5aa62ba0b7d0f42b486738cebc42bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Textures/Road_1lane_dark01 1.png using Guid(4d5aa62ba0b7d0f42b486738cebc42bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620b00291886fb4534b8f4a9c3f4c98f') in 0.028272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 29.831695 seconds.
+  path: Assets/KajamansRoads/Textures/MyPineTree04 3.png
+  artifactKey: Guid(43f711840ceb4ea43a824b07a728cdd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Textures/MyPineTree04 3.png using Guid(43f711840ceb4ea43a824b07a728cdd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0169961774329f98bc9cd13efd9ed8') in 0.038762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 40.863962 seconds.
+  path: Assets/KajamansRoads/Materials/2RoadMat.mat
+  artifactKey: Guid(fce506d6213fc8645809d972536683b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Materials/2RoadMat.mat using Guid(fce506d6213fc8645809d972536683b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745275be60ced93cb04e815e2d7f1a96') in 0.282979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.288335 seconds.
+  path: Assets/KajamansRoads/Free/Prefabs/l10km_cc4_sl20_t(12123025)_A87113010_Alley.prefab
+  artifactKey: Guid(7cc1045a0e531c442bdc048fdfbd1231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Free/Prefabs/l10km_cc4_sl20_t(12123025)_A87113010_Alley.prefab using Guid(7cc1045a0e531c442bdc048fdfbd1231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d19462fbed54c35ac073a677fca4435') in 0.067243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/KajamansRoads/Free/Prefabs/l10km_cc4_sl69_t(1212029)_rw12_wh15_n1_RsBtW_MeshV00_m.prefab
+  artifactKey: Guid(6becd15d7262243478b14c339313ad72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Free/Prefabs/l10km_cc4_sl69_t(1212029)_rw12_wh15_n1_RsBtW_MeshV00_m.prefab using Guid(6becd15d7262243478b14c339313ad72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb688f74f589883cba9a2a724f37182') in 0.056046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/KajamansRoads/Free/Prefabs/l20km_cc2_sl30_t(401509)_rw28_wh15_n1_RsBTW_MeshV00_m.prefab
+  artifactKey: Guid(26419c6407d63bc4abd79bf3d120f522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Free/Prefabs/l20km_cc2_sl30_t(401509)_rw28_wh15_n1_RsBTW_MeshV00_m.prefab using Guid(26419c6407d63bc4abd79bf3d120f522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66558dbc77baceacacbc2c2fd6c5a33') in 0.044201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/KajamansRoads/Free/Prefabs/l10km_cc4_sl20_t(12123025)_rw10_wh3_n3_RsBTW_MeshV00_m.prefab
+  artifactKey: Guid(6215070e0f160d74998efe50358b3d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Free/Prefabs/l10km_cc4_sl20_t(12123025)_rw10_wh3_n3_RsBTW_MeshV00_m.prefab using Guid(6215070e0f160d74998efe50358b3d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8d4eb444bc824d7e140186c8ece715') in 0.031490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/KajamansRoads/Free/Prefabs/l20km_cc2_sl30_t(401509)_rw28_wh15_n1_RsBTW_MeshV00.prefab
+  artifactKey: Guid(a7e9891f686821e46ade0477d65446f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Free/Prefabs/l20km_cc2_sl30_t(401509)_rw28_wh15_n1_RsBTW_MeshV00.prefab using Guid(a7e9891f686821e46ade0477d65446f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a25d2fac7b6aa5799141d07d1cbc01') in 0.026957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 18.978629 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/Documentation
+  artifactKey: Guid(e6906be0159d8e94c9ebb95d8b190ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/Documentation using Guid(e6906be0159d8e94c9ebb95d8b190ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4956d8476be1871c68c4b2f28b4d91') in 0.001184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.176878 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/Documentation/ReadMe-GoldCoins.rtf
+  artifactKey: Guid(880b809a11f7c8246ace311c26aedc5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/Documentation/ReadMe-GoldCoins.rtf using Guid(880b809a11f7c8246ace311c26aedc5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a27edf750a0dcb0356ab980ca86445') in 0.001228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 32.104444 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Copper Coin - Single/Mesh/CopperCoin.fbx
+  artifactKey: Guid(24071304340076549a2e49390b69cdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Copper Coin - Single/Mesh/CopperCoin.fbx using Guid(24071304340076549a2e49390b69cdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99583eed737ab64fae5238d30a302e53') in 0.063667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 2.172921 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Copper Coin - Single/Mesh/Materials/goldCoin_Diffuse.mat
+  artifactKey: Guid(62cc56b3e86b42a4784c931f9130ec22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Copper Coin - Single/Mesh/Materials/goldCoin_Diffuse.mat using Guid(62cc56b3e86b42a4784c931f9130ec22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593eebdb4c2c2ca3cbefa0c947a63f20') in 0.027394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.156612 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Copper Coin - Single/Prefab/SilverCoin.prefab
+  artifactKey: Guid(6cf803f17924190419a094e8c931bfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Copper Coin - Single/Prefab/SilverCoin.prefab using Guid(6cf803f17924190419a094e8c931bfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d5f536a2fbbe201d61dedc0f03bb91') in 0.087522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 27.929659 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Silver Coin - Single
+  artifactKey: Guid(30d9c49db8327554aa2f9779fe073e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Silver Coin - Single using Guid(30d9c49db8327554aa2f9779fe073e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3d930855c9909d55b0a40d094fece3') in 0.000776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.349823 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Cold, Silver, Copper Coins.prefab
+  artifactKey: Guid(d65c5544ceb166e42ba2c0035400520e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Cold, Silver, Copper Coins.prefab using Guid(d65c5544ceb166e42ba2c0035400520e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8585f7476f68315a3b343d68788674b') in 0.082215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 8.822956 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Cold, Silver, Copper Coins.prefab
+  artifactKey: Guid(d65c5544ceb166e42ba2c0035400520e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Cold, Silver, Copper Coins.prefab using Guid(d65c5544ceb166e42ba2c0035400520e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea3d15c47942c7c3618ce533d5379d82') in 0.049470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 7.443927 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Copper Coins
+  artifactKey: Guid(fd405979996c65d4d81c7da183d44369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Copper Coins using Guid(fd405979996c65d4d81c7da183d44369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba5d6fe670cd7a9e636d7132ec43019') in 0.000670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.407002 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Copper Coins/Material/Copper Coins Mat.mat
+  artifactKey: Guid(b06095be00f99c04bb0aa12975ce76e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Copper Coins/Material/Copper Coins Mat.mat using Guid(b06095be00f99c04bb0aa12975ce76e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1843bebe532da03bcdc7f1eb6bb8db') in 0.044856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 9.941624 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Copper Coin - Single/Prefab/SilverCoin.prefab
+  artifactKey: Guid(6cf803f17924190419a094e8c931bfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Copper Coin - Single/Prefab/SilverCoin.prefab using Guid(6cf803f17924190419a094e8c931bfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610d1c5a3101ec244842eaa40e902edf') in 0.002146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 19.849681 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Cold, Silver, Copper Coins.prefab
+  artifactKey: Guid(d65c5544ceb166e42ba2c0035400520e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Cold, Silver, Copper Coins.prefab using Guid(d65c5544ceb166e42ba2c0035400520e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ecd2ee35d6f70f01d0896b50920719c') in 0.042788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 11.546529 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Cold, Silver, Copper Coins.prefab
+  artifactKey: Guid(d65c5544ceb166e42ba2c0035400520e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Cold, Silver, Copper Coins.prefab using Guid(d65c5544ceb166e42ba2c0035400520e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34cbefd6e1bc9daab8ba6bd0232c984d') in 0.037095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 126.726297 seconds.
+  path: Assets/MyMaterials/2RoadMob.mat
+  artifactKey: Guid(ddf1b20df9693fa4bbdc3319e0fc8b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyMaterials/2RoadMob.mat using Guid(ddf1b20df9693fa4bbdc3319e0fc8b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69aa4ba7ad9d88bb4466fcba9584cb14') in 0.033655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.988714 seconds.
+  path: Assets/MyScenes/finalTro.prefab
+  artifactKey: Guid(4d47803a8ab4d0b4a9e7675a31a9d461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyScenes/finalTro.prefab using Guid(4d47803a8ab4d0b4a9e7675a31a9d461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d13b51bcf8c5e2562e6b9fe459343a') in 0.044434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 471
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MyScenes/finalTro 4.prefab
+  artifactKey: Guid(bb0d1330ebcf7374a852f9c18b5fa195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyScenes/finalTro 4.prefab using Guid(bb0d1330ebcf7374a852f9c18b5fa195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c287267d280c44c276f8583d09c35e0f') in 0.036348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 659
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/MyScenes/finalTro 2.prefab
+  artifactKey: Guid(5c2f2a57d1876c748b2fdc582ec841fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyScenes/finalTro 2.prefab using Guid(5c2f2a57d1876c748b2fdc582ec841fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba49a05f4b03f084457b70daf6a24d56') in 0.036336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 656
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MyScenes/finalTro 3.prefab
+  artifactKey: Guid(628ac79654ecf384ca69a5980615f8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyScenes/finalTro 3.prefab using Guid(628ac79654ecf384ca69a5980615f8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e721b0c2f89286b914a3ead3f965671') in 0.030776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 659
+========================================================================
+Received Import Request.
+  Time since last request: 55.404309 seconds.
+  path: Assets/MyScenes/finalTro 4.prefab
+  artifactKey: Guid(bb0d1330ebcf7374a852f9c18b5fa195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyScenes/finalTro 4.prefab using Guid(bb0d1330ebcf7374a852f9c18b5fa195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc311cd57a554484775256e45d4158a') in 0.002846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 113.764020 seconds.
+  path: Packages/com.unity.testtools.codecoverage/package.json
+  artifactKey: Guid(ba7d60725b0ec604698819352642be89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.testtools.codecoverage/package.json using Guid(ba7d60725b0ec604698819352642be89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312a15105b5b1a672fbbc01e4b0c349f') in 0.001424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 86.235703 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Scenes/Day.unity
+  artifactKey: Guid(6f89d6c81d4a93d46a40396e009cdf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Scenes/Day.unity using Guid(6f89d6c81d4a93d46a40396e009cdf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c53071249dc3c3d84ba17d3421534a3') in 0.000721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.972859 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Scenes/Night.unity
+  artifactKey: Guid(41342515ad832b347ab0e66f5c35c279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Scenes/Night.unity using Guid(41342515ad832b347ab0e66f5c35c279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a40b535d099aebb5e83a64c9d6b637d') in 0.015597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.162678 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Textures
+  artifactKey: Guid(e10f940138722c7499edca3d3e5bc277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Textures using Guid(e10f940138722c7499edca3d3e5bc277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af558ce3007cf96c23df33470f5c8351') in 0.002414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0

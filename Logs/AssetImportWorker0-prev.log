@@ -1,0 +1,387 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.19f1 (244b723c30a6) revision 2378610'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'fr' Physical Memory: 7865 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/youss/Desktop/ARVR/Lab6 - Copie
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59326
+Successfully changed project path to: C:/Users/youss/Desktop/ARVR/Lab6 - Copie
+C:/Users/youss/Desktop/ARVR/Lab6 - Copie
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22032] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 663988506 [EditorId] 663988506 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-AT8BMR2S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [22032] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 663988506 [EditorId] 663988506 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-AT8BMR2S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 7.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.19f1 (244b723c30a6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/youss/Desktop/ARVR/Lab6 - Copie/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX550 (ID=0x1f9f)
+    Vendor:   NVIDIA
+    VRAM:     1920 MB
+    Driver:   31.0.15.4626
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008504 seconds.
+- Loaded All Assemblies, in  0.362 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android SDK Build-tools component is not found. Make sure all tools are installed in the SDK manager.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Android.AndroidSDKTools:UpdateToolsDirectories ()
+UnityEditor.Android.AndroidSDKTools:.ctor (string)
+UnityEditor.Android.AndroidSDKTools:CreateAndroidSDKTools (string)
+UnityEditor.Android.AndroidSDKTools:GetInstance<UnityEditor.Android.AndroidSDKTools> (UnityEditor.Android.AndroidSDKTools/InstanceCreator)
+UnityEditor.Android.AndroidSDKTools:GetInstance ()
+UnityEditor.Android.AndroidDeploymentTargetsExtension:GetMainThreadContext (bool)
+UnityEditor.Android.TargetExtension:OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[])
+UnityEditor.Android.TargetExtension:OnLoad ()
+UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules ()
+
+InvalidOperationException: Cannot start process because a file name has not been provided.
+  at System.Diagnostics.Process.Start () [0x00024] in <babece01671744c6913f4a167b091f9e>:0 
+  at (wrapper remoting-invoke-with-check) System.Diagnostics.Process.Start()
+  at UnityEditor.Android.ProgramAsShellExecute.Start (System.Diagnostics.ProcessStartInfo psi) [0x0000e] in <c91765c32a844aad92ce9b6c6b9d05f7>:0 
+  at UnityEditor.Android.Command.RunWithShellExecute (System.String command, System.String args, System.String workingdir, System.String errorMsg) [0x0003e] in <c91765c32a844aad92ce9b6c6b9d05f7>:0 
+  at UnityEditor.Android.ADB.StartServer () [0x00013] in <c91765c32a844aad92ce9b6c6b9d05f7>:0 
+  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0000b] in <c91765c32a844aad92ce9b6c6b9d05f7>:0 
+  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x00284] in <c91765c32a844aad92ce9b6c6b9d05f7>:0 
+  at UnityEditor.Android.TargetScanWorker.ScanSync () [0x00039] in <c91765c32a844aad92ce9b6c6b9d05f7>:0 
+  at UnityEditor.Android.TargetExtension.OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[] usbDevices) [0x00081] in <c91765c32a844aad92ce9b6c6b9d05f7>:0 
+  at UnityEditor.Android.TargetExtension.OnLoad () [0x000ad] in <c91765c32a844aad92ce9b6c6b9d05f7>:0 
+  at UnityEditor.Modules.ModuleManager.InitializePlatformSupportModules () [0x0009d] in <2acbecbc299e4654adc94df891af51f2>:0 
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.401 seconds
+Domain Reload Profiling: 762ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (152ms)
+		LoadAssemblies (110ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (148ms)
+				TypeCache.ScanAssembly (134ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (401ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (336ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (172ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (112ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.868 seconds
+Refreshing native plugins compatible for Editor in 2.56 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.766 seconds
+Domain Reload Profiling: 1631ms
+	BeginReloadAssembly (179ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (564ms)
+		LoadAssemblies (460ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (204ms)
+			TypeCache.Refresh (184ms)
+				TypeCache.ScanAssembly (164ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (766ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (566ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (61ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (405ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 3.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.0 KB). Loaded Objects now: 3559.
+Memory consumption went from 128.9 MB to 128.8 MB.
+Total: 3.910400 ms (FindLiveObjects: 0.227300 ms CreateObjectMapping: 0.149100 ms MarkObjects: 3.361600 ms  DeleteObjects: 0.170800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 78582.434518 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Skybox/Day/Day Skybox.mat
+  artifactKey: Guid(2fdc1726342f4a749a190a0a8677a1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Skybox/Day/Day Skybox.mat using Guid(2fdc1726342f4a749a190a0a8677a1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8209c7c71d6d21b636bf6548984c9dc') in 0.343689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1.647683 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Skybox/Day/Textures/Middle.png
+  artifactKey: Guid(1547f812d72e8dc41aeb23f1ca2d0f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Skybox/Day/Textures/Middle.png using Guid(1547f812d72e8dc41aeb23f1ca2d0f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54344bcf071ea019d91fa5ff3cfd4ae4') in 0.049483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Skybox/Day/Textures/Bottom.png
+  artifactKey: Guid(d09270a5be941b14e8cd76b7d0347e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Skybox/Day/Textures/Bottom.png using Guid(d09270a5be941b14e8cd76b7d0347e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e96349fe83ee28d22362c920ba64245') in 0.023084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.167775 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Skybox/Day/Textures
+  artifactKey: Guid(adad24ed63dad3f4d9d375998942834a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Skybox/Day/Textures using Guid(adad24ed63dad3f4d9d375998942834a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac450d481a0aafdf9c8c125913807e5a') in 0.001204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 33.765758 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col1.png
+  artifactKey: Guid(8c508eea1762dd44cbf66593e03a6b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col1.png using Guid(8c508eea1762dd44cbf66593e03a6b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c581f170b5e708382d511b0bae491e') in 0.036686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col4.png
+  artifactKey: Guid(1732d531203aec748bc591f92d780684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col4.png using Guid(1732d531203aec748bc591f92d780684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5aff2bf7474a65146263f5e6626cc50') in 0.029326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 57.580044 seconds.
+  path: Assets/KajamansRoads/Textures/MyListTree02b 1.png
+  artifactKey: Guid(f52622959ec27a54e9aedd65ea7bedf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Textures/MyListTree02b 1.png using Guid(f52622959ec27a54e9aedd65ea7bedf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610618bd881c2535ed854815991aaafe') in 0.028368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/KajamansRoads/Textures/Road_1lane_dark01 1.png
+  artifactKey: Guid(50921c9c55635f2419b5fe9731b34faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Textures/Road_1lane_dark01 1.png using Guid(50921c9c55635f2419b5fe9731b34faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c583555829dc0c98423384e0d63d0472') in 0.027258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.816248 seconds.
+  path: Assets/KajamansRoads/Textures/MyListTree02b 2.png
+  artifactKey: Guid(209af28cf50228445a7e6a747dc1bfe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Textures/MyListTree02b 2.png using Guid(209af28cf50228445a7e6a747dc1bfe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9523bd77150c4541c7970342a6dbc9a') in 0.029767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/KajamansRoads/Textures/Road_1lane_dark01 2.png
+  artifactKey: Guid(813b0512b5edb9d41bd850857a9ef92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Textures/Road_1lane_dark01 2.png using Guid(813b0512b5edb9d41bd850857a9ef92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22afa1dcb0fed930f88e59022352dfe') in 0.026135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 53.016267 seconds.
+  path: Assets/KajamansRoads/Textures/MyPineTree04 4.png
+  artifactKey: Guid(665ae5cde91e0c4428440447a0f846e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Textures/MyPineTree04 4.png using Guid(665ae5cde91e0c4428440447a0f846e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd21a56a7c167b415c76fa58e669b52') in 0.038529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 43.444483 seconds.
+  path: Assets/KajamansRoads/Free/Prefabs/l10km_cc4_sl20_t(12123025)_A87113010_Alley_m.prefab
+  artifactKey: Guid(7a5fccb891a9c954589776539299e74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Free/Prefabs/l10km_cc4_sl20_t(12123025)_A87113010_Alley_m.prefab using Guid(7a5fccb891a9c954589776539299e74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2093e4132addeb4a8fb03ebd2bec90a') in 0.067726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/KajamansRoads/Free/Prefabs/l10km_cc4_sl69_t(1212029)_rw12_wh15_n1_RsBtW_MeshV00.prefab
+  artifactKey: Guid(52005168084e10d4998228ecb47015ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KajamansRoads/Free/Prefabs/l10km_cc4_sl69_t(1212029)_rw12_wh15_n1_RsBtW_MeshV00.prefab using Guid(52005168084e10d4998228ecb47015ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4dff30d0fafba681c346fb5dbaa329') in 0.241896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 54.208737 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Copper Coin - Single/Mesh
+  artifactKey: Guid(caeb2e3ff5b15d642ad6a4ec42ed1a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Copper Coin - Single/Mesh using Guid(caeb2e3ff5b15d642ad6a4ec42ed1a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c2fbf6cf1f7ce64a5670c186fc18d3') in 0.001074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.231634 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Copper Coin - Single/Mesh/Materials
+  artifactKey: Guid(6083c25b142deeb429691eef76cd6710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Copper Coin - Single/Mesh/Materials using Guid(6083c25b142deeb429691eef76cd6710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3daa588957d706f3c017182de2611d31') in 0.000721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.171538 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Copper Coin - Single/Prefab
+  artifactKey: Guid(1df7c950f62ecce48822ba1a3720bb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Copper Coin - Single/Prefab using Guid(1df7c950f62ecce48822ba1a3720bb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c46e2127bea44e22ae822a818bc49ea') in 0.001042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 55.216405 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Copper Coins/Material
+  artifactKey: Guid(bea336b3ba9792e418e596eed30d205e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Copper Coins/Material using Guid(bea336b3ba9792e418e596eed30d205e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffae0d0bc7e4ef5379ba660324b25418') in 0.000580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 177.220569 seconds.
+  path: Assets/MyScenes/finalTro 1.prefab
+  artifactKey: Guid(c8bab4f641566b3428bb79708999f14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyScenes/finalTro 1.prefab using Guid(c8bab4f641566b3428bb79708999f14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d97dfb1b3928a2e1488b892a606c83') in 0.038850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 545
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/MyScenes/Plane (1).prefab
+  artifactKey: Guid(2276a6b3009847e44a56eb07ae89709c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyScenes/Plane (1).prefab using Guid(2276a6b3009847e44a56eb07ae89709c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f637033901643406a2116ec5b1e1a83e') in 0.030658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/MyScenes/TroComplet.prefab
+  artifactKey: Guid(d5012ab1cf1227842996744253f5edf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyScenes/TroComplet.prefab using Guid(d5012ab1cf1227842996744253f5edf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd24a0c6040a48e30cb1ab966165f5d3') in 0.025540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/MyScenes/TroCom.prefab
+  artifactKey: Guid(71bdf4a91df25f845abc6f78e3d40cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyScenes/TroCom.prefab using Guid(71bdf4a91df25f845abc6f78e3d40cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1fc3a1396b025a137b6efa3fb4d356') in 0.025938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

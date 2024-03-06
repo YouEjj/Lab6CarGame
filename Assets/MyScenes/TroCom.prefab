@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &164790231824842425
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8253338886854703214}
+  m_Layer: 0
+  m_Name: TroCom
+  m_TagString: tro
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8253338886854703214
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164790231824842425}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.5380712, y: 7.8894744, z: 3.1712334}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5305060266260320334}
+  - {fileID: 4476000496636672187}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2714576687293208302
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8253338886854703214}
+    m_Modifications:
+    - target: {fileID: 7796647025127671456, guid: d5012ab1cf1227842996744253f5edf1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.307734
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796647025127671456, guid: d5012ab1cf1227842996744253f5edf1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -8.94439
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796647025127671456, guid: d5012ab1cf1227842996744253f5edf1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.1485176
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796647025127671456, guid: d5012ab1cf1227842996744253f5edf1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796647025127671456, guid: d5012ab1cf1227842996744253f5edf1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796647025127671456, guid: d5012ab1cf1227842996744253f5edf1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796647025127671456, guid: d5012ab1cf1227842996744253f5edf1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796647025127671456, guid: d5012ab1cf1227842996744253f5edf1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796647025127671456, guid: d5012ab1cf1227842996744253f5edf1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796647025127671456, guid: d5012ab1cf1227842996744253f5edf1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979495323333497098, guid: d5012ab1cf1227842996744253f5edf1, type: 3}
+      propertyPath: m_Name
+      value: TroComplet
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d5012ab1cf1227842996744253f5edf1, type: 3}
+--- !u!4 &5305060266260320334 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7796647025127671456, guid: d5012ab1cf1227842996744253f5edf1, type: 3}
+  m_PrefabInstance: {fileID: 2714576687293208302}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5921868015042264603
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8253338886854703214}
+    m_Modifications:
+    - target: {fileID: 7796647025127671456, guid: d5012ab1cf1227842996744253f5edf1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.2919288
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796647025127671456, guid: d5012ab1cf1227842996744253f5edf1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -8.94439
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796647025127671456, guid: d5012ab1cf1227842996744253f5edf1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.5812335
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796647025127671456, guid: d5012ab1cf1227842996744253f5edf1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796647025127671456, guid: d5012ab1cf1227842996744253f5edf1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796647025127671456, guid: d5012ab1cf1227842996744253f5edf1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796647025127671456, guid: d5012ab1cf1227842996744253f5edf1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796647025127671456, guid: d5012ab1cf1227842996744253f5edf1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796647025127671456, guid: d5012ab1cf1227842996744253f5edf1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796647025127671456, guid: d5012ab1cf1227842996744253f5edf1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979495323333497098, guid: d5012ab1cf1227842996744253f5edf1, type: 3}
+      propertyPath: m_Name
+      value: TroComplet (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d5012ab1cf1227842996744253f5edf1, type: 3}
+--- !u!4 &4476000496636672187 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7796647025127671456, guid: d5012ab1cf1227842996744253f5edf1, type: 3}
+  m_PrefabInstance: {fileID: 5921868015042264603}
+  m_PrefabAsset: {fileID: 0}
